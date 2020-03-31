@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name void)(type Legacy)(uri ${KIPRJMOD}/libs/void.lib)(options "")(descr ""))
+  (lib (name AD724)(type Legacy)(uri ${KIPRJMOD}/libs/AD724.lib)(options "")(descr ""))
 )
