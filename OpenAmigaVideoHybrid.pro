@@ -1,4 +1,4 @@
-update=mar 31 mar 2020, 22:27:35
+update=mer 1 apr 2020, 00:20:09
 version=1
 last_client=kicad
 [cvpcb]
@@ -50,7 +50,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2
@@ -206,11 +206,11 @@ Enabled=0
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Fab]
 Enabled=0
 [pcbnew/Layer.F.Fab]

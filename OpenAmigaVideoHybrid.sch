@@ -1250,7 +1250,7 @@ AR Path="/5EAF44C7/5EB9C5CD" Ref="Y?"  Part="1"
 AR Path="/5EB9C5CD" Ref="Y2"  Part="1" 
 F 0 "Y2" V 7150 4355 50  0000 C CNN
 F 1 "4.433619M" H 7020 4270 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 7020 4430 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 7020 4430 50  0001 C CNN
 F 3 "~" H 7020 4430 50  0001 C CNN
 	1    7020 4430
 	0    -1   -1   0   

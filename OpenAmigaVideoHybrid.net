@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenAmigaVideoHybrid/OpenAmigaVideoHybrid.sch)
-    (date "mar 31 mar 2020, 23:32:37")
+    (date "mer 1 apr 2020, 00:30:52")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -338,7 +338,7 @@
       (tstamp 5EB9C5C5))
     (comp (ref Y2)
       (value 4.433619M)
-      (footprint Crystal:Crystal_HC49-4H_Vertical)
+      (footprint Crystal:Crystal_SMD_HC49-SD)
       (datasheet ~)
       (libsource (lib Device) (part Crystal) (description "Two pin crystal"))
       (sheetpath (names /) (tstamps /))
