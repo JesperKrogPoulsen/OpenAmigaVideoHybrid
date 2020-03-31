@@ -1732,24 +1732,20 @@ Text Label 10985 4715 0    50   ~ 0
 luma
 Wire Wire Line
 	12440 4715 13115 4715
-Wire Wire Line
-	13115 4915 12990 4915
-Wire Wire Line
-	12990 4915 12990 4990
 Text Label 12905 4070 2    60   ~ 0
 comp
 $Comp
 L Connector:Conn_01x03_Male J?
 U 1 1 5EB9C6BC
-P 13315 4815
+P 13315 4715
 AR Path="/5EAF44C7/5EB9C6BC" Ref="J?"  Part="1" 
 AR Path="/5EB9C6BC" Ref="J2"  Part="1" 
-F 0 "J2" H 13287 4839 50  0000 R CNN
-F 1 "SVIDEO_OUT" H 13287 4748 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13315 4815 50  0001 C CNN
-F 3 "~" H 13315 4815 50  0001 C CNN
-	1    13315 4815
-	-1   0    0    -1  
+F 0 "J2" H 13287 4647 50  0000 R CNN
+F 1 "SVIDEO_OUT" H 13287 4738 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 13315 4715 50  0001 C CNN
+F 3 "~" H 13315 4715 50  0001 C CNN
+	1    13315 4715
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	12770 4925 12770 4815
@@ -1774,4 +1770,8 @@ F 3 "~" H 7910 5120 50  0001 C CNN
 	1    7910 5120
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	13115 4615 12990 4615
+Wire Wire Line
+	12990 4615 12990 4990
 $EndSCHEMATC
