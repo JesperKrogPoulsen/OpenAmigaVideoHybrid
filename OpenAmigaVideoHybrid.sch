@@ -1225,19 +1225,6 @@ Wire Wire Line
 	7700 4485 8150 4485
 Wire Wire Line
 	9605 4275 10070 4275
-$Comp
-L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 5EB9C5C5
-P 5665 3735
-AR Path="/5EAF44C7/5EB9C5C5" Ref="JP?"  Part="1" 
-AR Path="/5EB9C5C5" Ref="JP1"  Part="1" 
-F 0 "JP1" V 5665 3795 50  0000 L CNN
-F 1 "NTSC/~PAL" V 5605 3980 50  0000 L CNN
-F 2 "OpenAmigaVideoHybrid:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5665 3735 50  0001 C CNN
-F 3 "~" H 5665 3735 50  0001 C CNN
-	1    5665 3735
-	0    -1   -1   0   
-$EndComp
 Text Notes 5470 3905 0    50   ~ 0
 PAL
 Text Notes 5410 3640 0    50   ~ 0
@@ -1774,4 +1761,15 @@ Wire Wire Line
 	10280 4820 10155 4820
 Wire Wire Line
 	10155 4820 10155 5195
+$Comp
+L jumper:Jumper_3_Bridged12 JP1
+U 1 1 5F1A3118
+P 5665 3735
+F 0 "JP1" V 5665 3802 50  0000 L CNN
+F 1 "NTSC/~PAL" V 5619 3802 50  0001 L CNN
+F 2 "OpenAmigaVideoHybrid:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5665 3735 50  0001 C CNN
+F 3 "~" H 5665 3735 50  0001 C CNN
+	1    5665 3735
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
