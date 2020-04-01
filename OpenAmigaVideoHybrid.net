@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenAmigaVideoHybrid/OpenAmigaVideoHybrid.sch)
-    (date "mer 1 apr 2020, 01:34:15")
+    (date "mer 1 apr 2020, 19:33:09")
     (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -283,7 +283,7 @@
       (tstamp 5EA65627))
     (comp (ref V0)
       (value OSHW_LOGO)
-      (footprint Symbol:OSHW-Logo_5.7x6mm_Copper)
+      (footprint OpenAmigaVideoHybrid:oshw_logo)
       (libsource (lib void) (part Void) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EA70C0A))
